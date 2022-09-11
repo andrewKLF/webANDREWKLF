@@ -1,0 +1,47 @@
+.rmd{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+.rmd{
+    width: 90px;
+    height: 90px;
+    padding: 90px;
+    margin: 140px;
+    box-shadow: 4px 4px 8px 4px red; 
+    border-radius: 5px;
+    animation: neon 3s ease infinite
+}
+
+@keyframes neon{
+    50%{
+        box-shadow: 4px 4px 8px blue;
+    }
+}
+
+
+
+.correo{
+    color: red;
+    font-size: 20px;
+}
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #16C0FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2342a3cc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23003d73' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%233b92b5' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23004483' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%233c9cc7' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23000e2d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%233290c7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23002649' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%233e9eb6' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23001f3f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%233286a6' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23001029' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.texto-flotando{
+    font-size: 45px;
+
+}
+.and{
+    position: absolute;
+    top: 205px;
+    left: 149px;
+    right: 10px;
+    width: 270px;
+}
